@@ -72,7 +72,7 @@ export function Component() {
         <section id="about" className="py-20">
           <h2 className="text-3xl font-bold text-gray-800">About Us</h2>
           <p className="mt-4 text-gray-600">
-            Mensa Fund is an emerging top-tier cryptocurrency fund with extensive industry resources. We mainly focus on investments in the primary and secondary markets, with a fund size of $100 million. We support talented, innovative, and passionate teams. If your project is currently fundraising, feel free to contact us.
+            Mensa Capital is an emerging top-tier cryptocurrency fund with extensive industry resources. We mainly focus on investments in the primary and secondary markets, with a fund size of $100 million. We support talented, innovative, and passionate teams. If your project is currently fundraising, feel free to contact us.
           </p>
         </section>
         <section id="portfolio" className="py-20">
