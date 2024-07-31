@@ -95,44 +95,11 @@ export function Component() {
         </section>
         <section id="contact" className="py-20">
           <h2 className="text-3xl font-bold text-gray-800">Contact Us</h2>
-          <form className="mt-8 space-y-4">
-            <div>
-              <label htmlFor="name" className="block text-gray-700">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                className="w-full border-gray-300 rounded mt-1"
-                placeholder="Your name" />
-            </div>
-            <div>
-              <label htmlFor="email" className="block text-gray-700">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                className="w-full border-gray-300 rounded mt-1"
-                placeholder="Your email" />
-            </div>
-            <div>
-              <label htmlFor="message" className="block text-gray-700">
-                Message
-              </label>
-              <textarea
-                id="message"
-                className="w-full border-gray-300 rounded mt-1"
-                placeholder="Your message" />
-            </div>
-            <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded">
-              Send Message
-            </button>
-          </form>
+          <div class="ml-embedded" data-form="o1XwIA"></div>
         </section>
       </main>
       <footer className="w-full bg-gray-800 text-white py-4">
-        <div className="container mx-auto text-center">&copy; 2023 Mensa Capital. All rights reserved.</div>
+        <div className="container mx-auto text-center">&copy; 2024 Mensa Capital. All rights reserved.</div>
       </footer>
     </div>)
   );
