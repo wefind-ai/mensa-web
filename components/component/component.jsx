@@ -17,16 +17,16 @@ export function Component() {
             <span className="text-2xl font-bold text-gray-800">Mensa Capital</span>
           </div>
           <nav className="space-x-4 flex items-center">
-            <a href="#" className="text-gray-700 hover:text-gray-900">
+            {/* <a href="#" className="text-gray-700 hover:text-gray-900">
               Home
-            </a>
-            <a href="#" className="text-gray-700 hover:text-gray-900">
+            </a> */}
+            <a href="#about" className="text-gray-700 hover:text-gray-900">
               About
             </a>
-            <a href="#" className="text-gray-700 hover:text-gray-900">
+            <a href="#portfolio" className="text-gray-700 hover:text-gray-900">
               Portfolio
             </a>
-            <a href="#" className="text-gray-700 hover:text-gray-900">
+            <a href="#contact" className="text-gray-700 hover:text-gray-900">
               Contact
             </a>
             {/* <DropdownMenu>
@@ -72,30 +72,34 @@ export function Component() {
         <section id="about" className="py-20">
           <h2 className="text-3xl font-bold text-gray-800">About Us</h2>
           <p className="mt-4 text-gray-600">
-            Mensa Capital is a leading venture capital firm specializing in cryptocurrency investments. Our mission is
-            to empower innovative blockchain projects with the resources and expertise they need to succeed.
+            Mensa Fund is an emerging top-tier cryptocurrency fund with extensive industry resources. We mainly focus on investments in the primary and secondary markets, with a fund size of $100 million. We support talented, innovative, and passionate teams. If your project is currently fundraising, feel free to contact us.
           </p>
         </section>
         <section id="portfolio" className="py-20">
-          <h2 className="text-3xl font-bold text-gray-800">Our Portfolio</h2>
+          <h2 className="text-3xl font-bold text-gray-800">
+            Our Investments
+          </h2>
+          <h2 className="text-3xl font-bold text-gray-800">
+            Secondary Market
+          </h2>
           <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white shadow rounded p-4">
-              <h3 className="text-xl font-bold text-gray-800">Project A</h3>
-              <p className="mt-2 text-gray-600">Description of Project A.</p>
+              <h3 className="text-xl font-bold text-gray-800">Pendle Finance</h3>
+              <p className="mt-2 text-gray-600">Pendle Finance is a DeFi protocol that allows users to trade tokenized future yield on their assets. It provides a marketplace where users can separate the ownership of an asset from the yield it generates.</p>
             </div>
             <div className="bg-white shadow rounded p-4">
-              <h3 className="text-xl font-bold text-gray-800">Project B</h3>
-              <p className="mt-2 text-gray-600">Description of Project B.</p>
+              <h3 className="text-xl font-bold text-gray-800">Ethena</h3>
+              <p className="mt-2 text-gray-600">Ethena is a DeFi platform focused on creating a synthetic stablecoin called USDe. Unlike traditional fiat-backed stablecoins like USDC or USDT, USDe is a synthetic dollar backed by a combination of crypto assets and short futures positions. This unique structure allows it to maintain stability without relying on traditional banking systems.</p>
             </div>
             <div className="bg-white shadow rounded p-4">
-              <h3 className="text-xl font-bold text-gray-800">Project C</h3>
-              <p className="mt-2 text-gray-600">Description of Project C.</p>
+              <h3 className="text-xl font-bold text-gray-800">Lido Finance</h3>
+              <p className="mt-2 text-gray-600">Lido Finance offers liquid staking services on multiple blockchains, including Ethereum, Solana, Polygon, and others. The platform enables users to stake their cryptocurrency assets and receive a liquid representation of their staked tokens, such as stETH on Ethereum. This liquid staking allows users to earn staking rewards while maintaining liquidity, enabling them to use their staked tokens in other DeFi applications, like lending or trading.</p>
             </div>
           </div>
         </section>
         <section id="contact" className="py-20">
           <h2 className="text-3xl font-bold text-gray-800">Contact Us</h2>
-          <div class="ml-embedded" data-form="o1XwIA"></div>
+          <div className="ml-embedded" data-form="o1XwIA"></div>
         </section>
       </main>
       <footer className="w-full bg-gray-800 text-white py-4">
